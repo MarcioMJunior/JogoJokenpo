@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jokenpo</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<form method="post" action="calcular.php">
+		<section class="margem" align="center">
+			<div class="clear"></div>
+			<h1 align="center">Vamos Jogar JOKENPÔ?</h1>
+			<div class="clear"></div>
+			<div class="row" align="center">
+				<div class="col-md-6">
+					<h3>Jogador 1</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="clearform"></div>
+							<input type="text" name="nomeJogador1" placeholder="Digite nome do jogador 1" class="form-control" required>
+						</div>
+						<div class="col-md-6">
+							<img src="img/jogador1.png">
+						</div>
+					</div>
+					<div class="clear"></div>
+						
+						<select name="p1" class="form-control" required>
+							<option value="" disabled selected>Opção jogador 1</option>
+							<option value="pedra">PEDRA</option>
+							<option value="papel">PAPEL</option>
+							<option value="tesoura">TESOURA</option>
+						</select>
+					
+				</div>
+				<div class="col-md-6">
+					<h3>Jogador 2</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="clearform"></div>
+							<input type="text" name="nomeJogador2" placeholder="Digite nome do jogador 2" class="form-control" required>
+						</div>
+						<div class="col-md-6">
+							<img src="img/jogador2.png" height="291" width="200">
+						</div>
+					</div>
+					<div class="clear"></div>
+						
+						<select name="p2" class="form-control" required>
+							<option value="" disabled selected>Opção jogador 2</option>
+							<option value="pedra">PEDRA</option>
+							<option value="papel">PAPEL</option>
+							<option value="tesoura">TESOURA</option>
+						</select>
+					
+				</div>
+			</div>
+			<div class="clear2"></div>
+			<input type="submit" class="btn btn-primary btn-lg" value="Jogar !">
+		</section>
+		</form>
+	</body>
+</html>

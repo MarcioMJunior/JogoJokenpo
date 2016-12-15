@@ -1,0 +1,15 @@
+body{
+	background-color: #cccccc;
+}
+.clear{padding-top: 2%;}
+.clear2{padding-top: 4%;}
+.clearform{padding-top: 50%;}
+.img-responsive{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.margem{
+	padding-right: 10%;
+	padding-left: 10%;
+}
