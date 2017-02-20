@@ -52,5 +52,5 @@ Jogo classico jokenpo feito em php.
 
 ## Autor
 
-* **Marcio Marques Junior** - *Trabalho inicial* - [PurpleBooth](https://github.com/MarcioMJunior)
+* **Marcio Marques Junior** - *Trabalho inicial* - [GitHub](https://github.com/MarcioMJunior)
 
