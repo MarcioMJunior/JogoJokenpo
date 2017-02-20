@@ -35,7 +35,7 @@ Jogo classico jokenpo feito em php.
 
 <div align="center">
     <img
-        src="https://github.com/thawancavalcante/JogoJokenpo/blob/master/img/img4.jpg"
+        src="https://github.com/thawancavalcante/JogoJokenpo/blob/master/img/img4.png"
         alt="imagem 4" style="max-width:100%;">
 </div>
 
